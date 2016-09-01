@@ -16,11 +16,11 @@ newton_optimize <- function(g, x0, tol=1e-09, max.iter=100) {
   }
 }
 
-# Optimize the Maxwell-Boltzmann distribution for diatomic nitrogen
+# Maximize the Maxwell-Boltzmann distribution for diatomic nitrogen
 
 kB = 1.38064852e-23  # Boltzmann constant
 L = 6.022140857e23  # Avagadro constant
-R = kB*L  # Gas constant (kJ/(K*mol))
+R = kB*L  # Gas constant (J/(K*mol))
 M.N2 = 2*14.007e-03  # molar mass of diatomic nitrogen (kg/mol)
 t = 300  # room temperature (K)
 a = sqrt(R*t/M.N2)
