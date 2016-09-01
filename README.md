@@ -1,2 +1,2 @@
 # numerical-methods
-Numerical method algorithms
+Examples of numerical methods
